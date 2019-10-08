@@ -1,0 +1,104 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 60px;
+    width: 100%;
+    // background-color: rgba(50, 115, 220, 0.1);
+
+    display: grid;
+    grid-template-columns: 79% 7% 7% 7%;
+
+    align-items: center;
+    text-align: left;
+
+    // color: #8d479b;
+    .menu {
+      text-decoration: none;
+      font-family: 'Shadows Into Light', cursive;
+    }
+    .zero {
+      padding-left: 50px;
+      font-size: 30px;
+    }
+    .first {
+      font-size: 20px;
+      margin-right: 10px;
+      border-radius: 10px;
+      text-align: center;
+      border-width: thin;
+      border-style: solid;
+    }
+    .second {
+      font-size: 20px;
+      margin-right: 10px;
+      border-radius: 10px;
+      text-align: center;
+      border-width: thin;
+      border-style: solid;
+    }
+    .third {
+      font-size: 20px;
+      margin-right: 10px;
+      border-radius: 10px;
+      text-align: center;
+      border-width: thin;
+      border-style: solid;
+    }
+}
+
+
+.header-small {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 40px;
+    width: 100%;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 78% 7% 7% 7%;
+
+    align-items: center;
+    text-align: left;
+    font-weight: bold;
+    border-style: dashed;
+    border-width: thin;
+    // border-color: #CDA6D5;
+    // color: #8d479b;
+    .menu {
+      text-decoration: none;
+      font-family: 'Shadows Into Light', cursive;
+      // color: #1F1F1F;
+    }
+    .zero {
+      padding-left: 50px;
+      font-size: 25px;
+    }
+    .first {
+      font-size: 17px;
+      margin-left: 10px;
+      border-radius: 10px;
+      text-align: center;
+      border-width: thin;
+      border-style: dashed;
+    }
+    .second {
+      font-size: 17px;
+      margin-left: 10px;
+      border-radius: 10px;
+      text-align: center;
+      border-width: thin;
+      border-style: dashed;
+    }
+    .third {
+      font-size: 17px;
+      margin-left: 10px;
+      border-radius: 10px;
+      text-align: center;
+      border-width: thin;
+      border-style: dashed;
+    }
+}

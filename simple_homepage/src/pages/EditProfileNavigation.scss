@@ -1,0 +1,175 @@
+.avatar {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 150px;
+  width: auto;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #CDA6D5;
+  border-width: thin;
+}
+
+.name {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: cursive;
+  width: 100%;
+}
+
+.firstName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 90px;
+  background-color: white;
+}
+
+.lastName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 90px;
+  background-color: white;
+}
+
+.naviBar {
+  margin-top: 10px;
+  height: 485px;
+}
+
+.naviBarItem {
+  margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 100%;
+	box-shadow: 0 1px 1px -1px #777;
+  background-color:rgb(47, 47, 47);
+  color: white;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  align-items: center;
+  font-family: 'Merriweather', serif;
+}
+
+.naviBarList {
+  max-height: 445px;
+  overflow: scroll;
+}
+
+.naviBarItem:hover {
+  background-color:rgb(54, 54, 54);
+  font-weight: bold;
+}
+
+.barTitle {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.addButton {
+  color: #CDA6D5;
+}
+
+.deleteBar {
+  margin-right: 0px;
+  grid-column-start: 2;
+}
+
+.outerLinks {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  background-color: #1F1F1F;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-row: 1fr;
+  display: grid;
+}
+
+.facebook {
+  grid-column-start: 1;
+  // border-right-style: solid;
+}
+
+.twitter {
+  grid-column-start: 2;
+  // border-right-style: solid;
+}
+
+.linkedin {
+  grid-column-start: 3;
+  // border-right-style: solid;
+
+}
+
+.instgram {
+  grid-column-start: 4;
+  // border-right-style: solid;
+}
+
+.github {
+  grid-column-start: 5;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+
+.notLinked {
+  opacity: 0.3;
+}
+
+.linked {
+  opacity: 1;
+}
+
+.fa-edit {
+  color: white;
+}
+
+.fa-save {
+  color: white;
+}
+
+.modalContent {
+  margin-top: -80px;
+
+}
+.modalTitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  color: #2B2B2B;
+}
+
+.modalButton {
+  margin-left: 20px;
+  width: 90px;
+  height: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.modalInput {
+  width: 250px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  border-color: gray;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}

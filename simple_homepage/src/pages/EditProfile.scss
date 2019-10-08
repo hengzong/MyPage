@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  background-color: white;
+}
+
+.navigation {
+  height: calc(100vh - 40px);
+  width: 300px;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: #2B2B2B;
+  text-align: center;
+}
+
+.url_input {
+  margin: auto;
+  width: 450px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  border-color: gray;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}

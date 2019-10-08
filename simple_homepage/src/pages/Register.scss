@@ -1,0 +1,37 @@
+.Register {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../images/background.jpg");
+  background-size: 100% 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#register-form {
+  margin-top: -60px;
+  height: 500px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  Align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+  border-color: rgba(50, 115, 220, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.reminder {
+  color: #ddeff3;
+}
+
+.visible {
+  display: block;
+}
+
+.invisible {
+  display: none;
+}
